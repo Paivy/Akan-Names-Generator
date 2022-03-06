@@ -1,62 +1,31 @@
 <!DOCTYPE html>
  <html lang="en">
-<head>
-    
+<head>   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
-<body>
+<body>      
+    <h1>Akan Names embracing the Ghanian culture</h1>e
+<div class="title"> 
+<form id="form_data">
+    <p class="Header">Gender</p>
+    <select id="gender" required>
+        <option class="statement" value="" default selected>Select your Gender</option>
+        <option class="statement" value="male">Male</option>
+        <option class="statement" value="female">Female</option>
+    </select>
+    <p class="Header">Birthday</p>
+    <input type="date" value="" name="Birthday" id="birthday" />
     
-    
-    <h1>Akan Names embracing the Ghanian culture</h1>
-    <div class="">
-
-<form id="form-data">
-    <div class="">
-        <p class="Header">Gender</p>
-        <br>
-        <select id="Gender" required>
-
-            <option class="statement" value="" default selected>Select your Gender</option>
-            <option class="statement" value="Male">Male</option>
-
-            <option class="statement" value="Female">Female</option>
-
-<br>
-        </select>
-
-    </div>
-    <br>
-
-<div class="">
-
-<p class="Header">Birthday</p>
-<br>
-<input type="date" value="" name="Birthday" 
-id="Birthday" />
- <br>
-
+    <button class="click" type="button" onClick="akanForm()">Submit</button>
+</form>
 </div>
-<br>
-
-<button type="button"onclick= 'akanForm()>"Submit"</button>
-
-<br>
-
-<div class="box"> 
 <p id="message"></p>
-
-
-</div>
-
-        <script src="index.js"></script>
-
+<script src="index.js"></script>
 </body> 
-
 </html>
