@@ -1,8 +1,15 @@
 *{
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
 
+
+}
+body{
+    background-image: url('/images/akanbackground.jpg');
+    height: 100vh;
+    width: 100%;
+    margin: 10px;
 
 }
 
@@ -11,21 +18,13 @@ h1{
     text-align: center;
 }
 
-.Header{
-    font-family: 'Roboto', sans-serif;
-    font-size: medium;
-    font-weight: 700;
-}
-.statement{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.button{
-    display: flex;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+.title{
+    margin: 50px;
+    height: 500px;
+    width : 100%;
     
 
 }
+
 
 
