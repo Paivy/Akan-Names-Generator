@@ -18,6 +18,41 @@ function akanForm(){
         [ 'Saturday', 'Kwame', 'Ama'] ,
 
     ];
-    //check for the day of birth from the birthday in puted
+    //check for the day of birth from the birthday inputed
+    const d = new Date(birthday);
+    let day = d.getDay();
+    let year = d.getFullYear();
     
-}
+
+    var dayofTheWNeek = akanArray[day][0];
+    var maleName = akanArray[day][1];
+    var femaleName = akanArray[day][2];
+    const output = document.getElementById('message')
+
+    // conditional statements
+
+    if (gender = ''){
+        alert('Kindly specify the gender');
+    }else if (year >= 2021){ 
+            alert('Kindly give a valid birtday');
+        }else if (gender == 'male'){
+            output.innerHTML =
+            'You were born on a ' +
+            dayofTheWeek +
+            'and your name is ' +
+            maleName;
+        }else if (gender == 'female '){
+            output.innerHTML =
+            'You were born on a ' +
+            dayofTheWeek +
+            'and your akan name is ' +
+            femaleName;
+        }
+        formReset();
+    }
+
+
+
+    
+
+
