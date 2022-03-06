@@ -25,6 +25,19 @@ h1{
     
 
 }
+form{
+    height: 500px;
+    width : 100%;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.click{
+    height: 20px;
+    width: 100px;
+    border-radius: 2em;
+    
+}
+
 
 
 
