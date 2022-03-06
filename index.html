@@ -9,15 +9,46 @@
 </head>
 <body>
     <H1>Did you know Akan names are derived from Ghanian culture?</H1>
-    <section class="header">
+    <div class="">
 
-<form action="">
-<p>Gender</p>
-<input type="select" name="Gender" id="male" />
-<label for="male"> Male</label>
+<form id="form-data">
+    <div class="">
+        <p class="Header">Gender</p>
+        <br>
+        <select id="Gender" required>
+            <option class="statement" value="" default selected>Select your Gender</option>
+            <option class="statement" value="Male">Male</option>
+
+            <option class="statement" value="Female">Female</option>
+
+<br>
+        </select>
+
+    </div>
+    <br>
+
+<div class="">
+
+<p class="Header">Birthday</p>
+<br>
+<input type="date" value="" name="Birthday" 
+id="Birthday" />
+<br>
+
+</div>
+<br>
+
+<button type="button"  onclick="findName();">Get Name</button>
 </form>
 
-    </section>s
+<br>
+
+<div class="box"> 
+<p id="message"></p>
+
+
+</div>
+
         <script src="index.js"></script>
 
 </body>
