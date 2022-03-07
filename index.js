@@ -35,7 +35,7 @@ function akanForm(){
 
     if (gender == ''){
         alert('Kindly specify the gender');
-    }else if (year >= 2021){
+    }else if (year >=2021){
             alert('Kindly give a valid birthday');
         }else if (gender == 'male'){
             output.innerHTML =
