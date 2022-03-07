@@ -7,6 +7,7 @@ This project is a web application that takes a user's birthday and calculates th
 ## Screenshot
 
 ## Live Page
+[https://paivy.github.io/Week-2-IP/]
 
 ## Technologies used
 HTML5
