@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("/images/hut-1986886_960_720.webp");
+  background-image: url("./images/bg-img.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
